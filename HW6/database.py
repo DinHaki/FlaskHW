@@ -39,7 +39,7 @@ metadata.create_all(engine)
 
 class DataType(str, Enum):
     users = "users"
-    goods = "goods"
+    products = "products"
     orders = "orders"
 
 
